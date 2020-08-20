@@ -1,0 +1,31 @@
+header  {
+    word-spacing: 30px;
+    background: rgb(207, 202, 202);
+    color:rgb(63, 61, 61);
+    font-size: 130%;
+}
+a{
+    text-decoration: none;
+}
+main{
+    background-color: rgb(235, 230, 230);
+}
+
+.button{
+    background: rgb(140, 140, 228);
+    text-decoration: none;
+    color: black;
+    border: solid 2px black;
+    border-radius: 10%;
+    margin-top: 10%;
+
+
+}
+.button:hover{
+    background-color: rgb(110, 101, 101);
+}
+.big{
+    color: red;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}

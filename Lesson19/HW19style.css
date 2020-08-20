@@ -1,0 +1,246 @@
+html, body{
+    height: 100%;
+    
+}
+
+.container{
+    margin: 0 auto;
+    
+}
+header{
+    height: 100px;
+    display: flex; 
+    justify-content: space-around;
+    box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.2);
+}
+
+.logo_text{
+    display: inline-block;
+    width: 80%;
+    color: #5C5C5C;
+    word-spacing: 5px;
+}
+span{
+    
+    background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.logo_image{
+    display: inline-block;
+    width: 17%;
+}
+.line{
+    display: inline-block;
+    
+}
+.items{
+    align-self: center;
+}
+.menu__items{
+    text-decoration: none;
+    margin-right: 35px;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FF8A00
+
+}
+nav a:nth-child(5)::after{
+    display:block;
+    content: '';
+    width: 30%;
+    height: 2px;
+    background-color: #FF8A00;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 10.8px);
+    top: 20px;
+}
+nav a:nth-child(5){
+    position: relative;
+}
+.button_logo{
+    width: 150px;
+    height: 50px;
+    border: 0;
+    border-radius: 100px;
+    box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.2);
+    background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-left: 10px;
+    opacity: 1;
+    outline: none;
+}
+.button_logo:hover{
+    outline: none;
+    width: 140px;
+    height: 40px;
+    background: grey;
+    opacity: 0.5;
+}
+label{
+    display: block;
+    margin-bottom: 20px;
+}
+main h1{
+    font-family: Proxima Nova;
+    font-size: 44px;
+    line-height: 158.34%;
+    background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0;
+}
+main p{
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 33px;
+    color: #5C5C5C;
+    margin-bottom: 60px;
+}
+input[type=text]{
+    outline: none;
+    width: 490px;
+    height: 58px;
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    border-radius: 100px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+input::-webkit-input-placeholder {  
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5C5C5C;    
+}
+input[type=submit]{
+    background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+    box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.2);
+    border-radius: 100px;
+    width: 467px;
+    height: 57px;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.your_message input{
+    border-radius: 50px;
+    height: 240px;
+    border-color: yellowgreen;
+}
+
+main{
+    width: 70%;
+    margin: 0 auto;
+}
+footer{
+    background-color: #212121;
+
+}
+.advertising{
+    margin: 10px auto 0px auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px,1fr));
+    grid-template-rows: 212px 50px;
+}
+.left_block p:nth-child(2){
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+ul a:not(h2), .footer_text{
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 175.78%;
+    color: #FFFFFF;
+}
+ul h2 {
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 175.78%;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.left_block{
+    margin-left: 10%;
+}
+.left_block a{
+    width: 36px;
+    height: 36px;
+    margin: 0 10px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    background: #272EAE;
+    transition: all 0.5s ease;
+    opacity: 1;
+
+}
+a.facebook{
+    background: #1590D8;
+}
+a.youtube{
+    background: #D0021B;
+}
+a.whatsapp{
+    background: greenyellow;
+}
+.left_block a .fa{
+    color: white;
+    line-height: 36px;
+    transition: all 0.5s ease;
+}
+.left_block a:hover{
+    background-color: #ccc;
+    transition: all 0.5s ease;
+}
+.left_block a:hover i.fa{
+    color: black;
+    transition: all 0.5s ease;
+}
+.footer_text{
+    justify-self: center;
+    align-self: center;
+    margin-top: 70px;
+}
+
+
+.dno{
+    color: white;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    line-height: 20px;
+    background-color: black;
+    display: flex;
+    
+}
+.dno p:nth-child(1){
+    flex-grow: 1;
+    margin-left: 3%;
+    text-align: left;
+}
+.dno p:nth-child(2){
+    flex-grow: 1;
+    text-align: right;
+    margin-right: 3%;
+    word-spacing: 5px;
+}
